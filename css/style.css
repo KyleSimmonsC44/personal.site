@@ -78,10 +78,10 @@ hr {
 	text-align: center;
 	position: relative;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100 */
-	background: rgb(107,77,168); /* Old browsers */
-	background: -moz-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: rgba(164,0,0); /* Old browsers */
+	background: -moz-linear-gradient(90deg, rgba(164,0,0,0.7) 0%, rgba(134,7,7,.5) 38%, rgba(222,158,74,.7) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(90deg, rgba(164,0,0,0.7) 0%, rgba(134,7,7,.5) 38%, rgba(222,158,74,.7) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(90deg, rgba(164,0,0,0.7) 0%, rgba(134,7,7,.5) 38%, rgba(222,158,74,.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', endColorstr='#4977c2', GradientType=1 ); /* IE6-9 */
 	margin: 0 auto;
 	margin-bottom: 30px;
@@ -171,10 +171,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	border-color: #222;
 }
 .btn-primary {
-	color: #526cbb;
+	color: rgba(164,0,0);
 	background-color: transparent;
 	padding: 12px 20px;
-	border: 2px solid #526cbb;
+	border: 2px solid rgba(164,0,0);
 	border-radius: 0;
 	text-transform: uppercase;
 	font-size: 15px;
@@ -182,8 +182,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
-	background-color: #526cbb;
-	border-color: #526cbb;
+	background-color: rgba(164,0,0);
+	border-color:rgba(164,0,0);
 }
 .btn-primary i.fa {
 	margin-right: 10px;
