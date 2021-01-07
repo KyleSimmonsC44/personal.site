@@ -219,9 +219,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: linear-gradient(90deg, rgba(164,0,0,0.7) 0%, rgba(134,7,7,.5) 38%, rgba(222,158,74,.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', endColorstr='#d94977c2', GradientType=1 ); /* IE6-9 */
 }
-.section-title.center {
-	padding: 25px 0 45px 0;
-}
+
 /* About Section */
 #about {
 	padding: 100px 0;
