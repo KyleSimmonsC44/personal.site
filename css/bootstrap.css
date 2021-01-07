@@ -1148,6 +1148,9 @@ img {
 .img-circle {
   border-radius: 50%;
 }
+.img-responsive{
+  object-fit: cover;
+}
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -6588,4 +6591,7 @@ button.close {
 .icon{
   font-size: 75px;
   margin-top: 0;
+}
+.optForMobile{
+  padding: 20%;
 }
